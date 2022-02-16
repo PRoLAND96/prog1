@@ -1,0 +1,4 @@
+git init
+got status
+gti add a.txt
+git commit (-m "comment")
