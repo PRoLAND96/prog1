@@ -48,7 +48,7 @@ try{
 	msi.erase("a");
 	print(msi);
 	
-	std::cout <<std::endl << "Teljes törlés utám: " << std::endl;
+	std::cout <<std::endl << "Teljes törlés után: " << std::endl;
 	msi.erase(msi.begin(), msi.end());
 	print(msi);
 	
