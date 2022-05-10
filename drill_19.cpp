@@ -36,7 +36,7 @@ template<typename T> void read_val(T& v){
 
 
 template<typename T>
-std::ostream& operator<<(ostream& os, vector<T>& v){
+ostream& operator<<(ostream& os, vector<T>& v){
     os << "{ ";
     for (int i = 0; i<v.size(); ++i) {
         os << v[i];
